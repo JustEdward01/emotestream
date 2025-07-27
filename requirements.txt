@@ -1,0 +1,15 @@
+# EmoteStream Requirements
+# Core computer vision and AI
+opencv-python==4.9.0.80
+mediapipe==0.10.8
+numpy==1.24.3
+
+# Virtual camera support
+pyvirtualcam==0.12.0
+
+# Audio/video processing
+pygame==2.5.2
+
+# Configuration and utilities
+PyYAML==6.0.1
+pathlib2==2.3.7
