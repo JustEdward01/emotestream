@@ -1,0 +1,57 @@
+# EmoteStream - Your Custom Emotes Configuration
+# 6 gesturi: 2 existente + 4 noi
+
+# EXISTING GESTURES (Enhanced)
+hands_up:
+  gesture:
+    type: hands_up
+  video_path: "assets/video/hands_up.mp4"
+  description: "Celebration effect - raise both hands above head"
+
+hands_on_head:
+  gesture:
+    type: hands_on_head
+  video_path: "assets/video/hands_on_head.mp4"
+  description: "Facepalm effect - place hands near ears/head"
+
+# YOUR 4 NEW CUSTOM GESTURES
+
+# 1. World's Saddest Violin - Violin playing gesture
+violin_gesture:
+  gesture:
+    type: violin_gesture
+  video_path: "assets/video/saddest_violin.mp4"
+  description: "World's saddest violin - one hand up (bow), one hand extended (violin neck)"
+
+# 2. Peace Out - V sign with index and middle finger
+peace_out:
+  gesture:
+    type: peace_out
+  video_path: "assets/video/peace_out.mp4"
+  description: "Peace out - V sign with index and middle finger extended"
+
+# 3. Middle Finger - Classic sassy response
+middle_finger:
+  gesture:
+    type: middle_finger
+  video_path: "assets/video/middle_finger.mp4"
+  description: "Middle finger - epic sassy response gesture"
+
+# 4. Shot in the Head - Hand to temple like gun
+shot_in_head:
+  gesture:
+    type: shot_in_head
+  video_path: "assets/video/shot_in_head.mp4"
+  description: "Shot in the head - hand to side of head/temple gesture"
+
+# GESTURE DETECTION GUIDE:
+# 
+# hands_up: Raise both hands above your head, keep them separated
+# hands_on_head: Place both hands near your ears or on your head
+# violin_gesture: One hand up (like holding a bow), one hand extended to side (like holding violin neck)
+# peace_out: Extend index and middle finger in V shape, fold other fingers
+# middle_finger: Extend only middle finger, keep other fingers folded
+# shot_in_head: Place one hand near your temple/side of head
+#
+# HOLD TIME: 1 second for each gesture
+# COOLDOWN: 2 seconds between gestures

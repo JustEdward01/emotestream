@@ -1,0 +1,7 @@
+gestures:
+  cinema:
+    video: "assets/video/cinema.mp4"
+    audio: "assets/audio/cinema.mp3"
+  hands_on_head:
+    video: "assets/video/hands_on_head.mp4"
+    audio: "assets/audio/hands_on_head.mp3"
